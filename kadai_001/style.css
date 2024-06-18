@@ -1,0 +1,108 @@
+body {
+  font-family: "Source Sans Pro", "Hiragino Kaku Gothic ProN", Meiryo, Arial, sans-serif;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+
+/* PC用スタイル */
+
+@media screen and (min-width: 768px) {
+
+  /* 横幅設定 */
+  body {
+    max-width: 1080px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+  }
+
+  /* ヘッダー */
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #header-title {
+    text-align: left;
+    font-size: 34px;
+    margin: 20px 0 20px 160px;
+    border: solid 1px #000000;
+  }
+
+  #nav-title>a {
+    font-size: 34px;
+    text-decoration: none;
+    margin: 20px;
+  }
+
+  #main-photo>img {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+  #about {
+    margin: 50px auto;
+    width: 100%;
+  }
+
+  #about>h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .about-photo {
+    border-radius: 50%;
+  }
+
+  #about-flex {
+    width: 100%;
+    display: flex;
+  }
+
+  #about-flex>div {
+    width: 50%;
+    margin: 50px;
+  }
+
+
+
+  #works>div {
+    display: flex;
+    justify-content: center;
+  }
+
+  #works>h1 {
+    font-size: 34px;
+    text-align: center;
+  }
+
+  .item {
+
+    padding: 10px 20px;
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .item>img {
+    width: 90%;
+
+  }
+
+  footer {
+    text-align: center;
+  }
+
+
+  @media screen and (max-width: 768px) {
+
+  }
+
+}
