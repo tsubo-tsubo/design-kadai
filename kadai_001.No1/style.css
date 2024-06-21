@@ -1,0 +1,104 @@
+body {
+  max-width: 1080px;
+  min-width: 960px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: #ffffff;
+  font-family: "Noto Sans Japanese";
+}
+
+#main-logo {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#main-logo>h1 {
+  font-size: 34px;
+  margin: 0 20px;
+  border: solid 1px #000000;
+}
+
+.nav-menu>a {
+  text-decoration: none;
+  margin: 20px 20px;
+  font-size: 34px;
+  color: #000000;
+}
+
+.mainpic>img {
+  width: 100%;
+  margin-top: 20px;
+  margin: 0 auto;
+}
+
+
+.about-box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.circle {
+  border-radius: 50%;
+  margin: 0 0 0 50px;
+}
+
+.square {
+  margin: 30px 20px 0 0;
+}
+
+#works {
+  width: 100%;
+}
+
+
+#works>div {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+div>.item {
+  margin: 0 20px;
+  width: 250px;
+  text-align: center;
+}
+
+.item > img {
+  width: 250px;
+}
+
+p {
+  font-size: 18px;
+}
+
+footer {
+  text-align: center;
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+}
