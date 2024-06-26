@@ -1,0 +1,98 @@
+body {
+  max-width: 1080px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: rgb(231, 246, 252);
+  font-family: "Meiryo";
+
+}
+
+#logo>img {
+  width: 160px;
+  margin: 30px 0 0 0;
+}
+
+#mainvisual {
+  width: 100%;
+}
+
+#mainvisual>img {
+  width: 1000px;
+  height: 400px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+#index {
+  width: 1000px;
+  margin: 50px 0;
+  padding: 20px 0;
+  background-color: #ffffff;
+}
+
+#index>h2 {
+  margin: 0 0 0 220px;
+}
+
+.index-box {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+#detail {
+  width: 100%;
+}
+
+#detail>div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-left {
+  width: 50%;
+  margin-left:150px;
+}
+
+.detail-left>img {
+  width: 40%;
+
+
+}
+
+.detail-right {
+  margin: 30px 100px 0 0;
+}
+
+.detail-right>.iteme {
+  border-top-color: gray;
+}
+.iteme {
+  padding: 15px;
+}
+
+.detail-right > h3 {
+  padding: 15px;
+  border-bottom-color: grey;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.detail-right > p {
+  padding: 15px;
+  border-top-color: grey;
+  border-top-width: 1px;
+  border-top-style: solid;
+}
+.nav-menu {
+  padding: 15px;
+}
+
+footer {
+  margin: 150px 0 0 250px;
+}
+@media screen and (max-width: 767px) {
+}
