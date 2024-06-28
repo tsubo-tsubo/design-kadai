@@ -1,0 +1,101 @@
+body {
+  font-family: "Noto Sans JP";
+  background-color: #ffffff;
+}
+#main-logo {
+  max-width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px auto;
+}
+h1 {
+  font-size: 34px;
+  margin: 0 0 0 20px;
+  border: solid 1px #000000;
+  padding: 0 20px;
+}
+.nav-menu > a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+  font-size: 34px;
+  color: #000000;
+}
+
+.mainpic>img {
+  width: 100%;
+  margin: 0 auto;
+}
+.about {
+  max-width: 1080px; 
+}
+
+.about-box { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.circle {
+  border-radius: 50%;
+}
+
+.about-inner {
+  margin: 30px 0 0 60px;
+}
+
+.works {
+ width: 100%;
+}
+
+.works-inner { 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.item {
+  width: 25%;
+  margin: 0 10px;
+  padding-bottom: 60px;
+}
+
+p {
+  font-size: 18px;
+  margin: 0;
+}
+
+footer {
+  text-align: center;
+  margin: 50px 0;
+}
+
+h2 {
+  font-size: 34px;
+  text-align: center;
+  margin: 60px 0 40px;
+
+}
+h3 {
+  font-size: 24px;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+}
