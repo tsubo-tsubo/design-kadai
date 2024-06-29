@@ -1,98 +1,97 @@
 body {
-  max-width: 1080px;
-  width: 100%;
-  margin: 20px auto;
-  background-color: rgb(231, 246, 252);
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: #F4F9FF;
   font-family: "Meiryo";
 
 }
 
 #logo>img {
   width: 160px;
-  margin: 30px 0 0 0;
+  margin: 60px 0 0 0;
 }
 
 #mainvisual {
-  width: 100%;
+  max-width: 1000px;
+  margin-bottom: 60px;
 }
 
 #mainvisual>img {
-  width: 1000px;
-  height: 400px;
-}
-
-h2 {
-  font-size: 18px;
+ width: 100%;
 }
 
 #index {
-  width: 1000px;
-  margin: 50px 0;
+ margin-bottom: 50px; 
   padding: 20px 0;
   background-color: #ffffff;
 }
 
-#index>h2 {
-  margin: 0 0 0 220px;
+.index-title {
+  font-size: 18px;
 }
 
 .index-box {
-  display: flex;
-  justify-content: center;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 40px;
 }
 
-
+.title {
+  padding-left: 20px;
+}
 
 #detail {
-  width: 100%;
+  margin-bottom: 100px;
 }
 
-#detail>div {
+.detail-title {
+  font-size: 18px;
+}
+
+.inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.content {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.detail-left {
-  width: 50%;
-  margin-left:150px;
+.content>img {
+  width: 270px;
+  margin-right: 30px;
 }
 
-.detail-left>img {
-  width: 40%;
-
-
+.text-title {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.detail-right {
-  margin: 30px 100px 0 0;
+.item {
+  border-top: solid 1px #dededede;
+  border-bottom: solid 1px #dededede;
+  padding: 10px 0;
+  line-height: 30px;
+}
+td {
+  padding: 0 20px;
+}
+p {
+  margin-top: 20px;
 }
 
-.detail-right>.iteme {
-  border-top-color: gray;
-}
-.iteme {
-  padding: 15px;
-}
-
-.detail-right > h3 {
-  padding: 15px;
-  border-bottom-color: grey;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-}
-.detail-right > p {
-  padding: 15px;
-  border-top-color: grey;
-  border-top-width: 1px;
-  border-top-style: solid;
-}
 .nav-menu {
-  padding: 15px;
+  margin-top: 20px;
+}
+
+.nav-menu>a {
+  color: #333333;
 }
 
 footer {
-  margin: 150px 0 0 250px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
 }
-@media screen and (max-width: 767px) {
-}
+
+@media screen and (max-width: 1024px) {}

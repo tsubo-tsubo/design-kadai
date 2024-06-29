@@ -7,6 +7,8 @@
   <meta name="description" content="タイトルタイトル">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
 </head>
 
 <body>
@@ -22,9 +24,10 @@
     </div>
 
     <section id="index">
-      <h2>INDEX</h2>
       <div class="index-box">
-        <ol>
+      <h2 class="index-title">INDEX</h2>
+     
+        <ol class="title">
           <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
           <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
           <li>タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル</li>
@@ -36,41 +39,42 @@
 
     <section id="detail">
 
-      <div clacc="detail-box">
+      <div class="inner">
+        <h2 class="detail-title">DETAIL</h2>
 
-        <div class="detail-left">
-          <h2>DETAIL</h2>
+        <div class="content">
           <img src="img/detail.jpg" alt="セカンドビジュアル">
+
+
+          <div class="text">
+            <h3 class="text-title">タイトルタイトルタイトル</h3>
+
+
+            <table class="item">
+              <tr>
+                <th>著　者</th>
+                <td>タイトルタイトルタイトル</td>
+              </tr>
+              <tr>
+                <th>出版社</th>
+                <td>タイトルタイトルタイトル</td>
+              </tr>
+              <tr>
+                <th>発行年</th>
+                <td>タイトルタイトルタイトル</td>
+              </tr>
+            </table>
+
+            <p>
+              テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
+            </p>
+
+            <nav class="nav-menu">
+              <a href="index.html#オンラインストアで見る">オンラインストアで見る</a>
+            </nav>
+          </div>
         </div>
-
-        <div class="detail-right">
-          <h3>タイトルタイトルタイトル</h3>
-
-          <table class="iteme">
-
-            <tr>
-              <th >著　者</th>
-              <td >タイトルタイトルタイトル</td>
-            </tr>
-            <tr>
-              <th >出版社</th>
-              <td >タイトルタイトルタイトル</td>
-            </tr>
-            <tr>
-              <th>発行年</th>
-              <td>タイトルタイトルタイトル</td>
-            </tr>
-
-          </table>
-          <p>
-            テキストテキストテキストテキスト<br>テキストテキストテキストテキスト<br>テキストテキストテキストテキスト
-          </p>
-
-          <nav class="nav-menu">
-            <a href="index.html#オンラインストアで見る">オンラインストアで見る</a>
-          </nav>
-        </div>
-      </div>  
+      </div>
     </section>
 
   </main>
