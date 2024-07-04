@@ -1,0 +1,124 @@
+body {
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: #F4F9FF;
+  font-family: "Meiryo";
+
+}
+
+#logo>img {
+  width: 160px;
+  margin: 60px 0 0 0;
+}
+
+#mainvisual {
+  max-width: 1000px;
+  margin-bottom: 60px;
+}
+
+#mainvisual>img {
+  width: 100%;
+}
+
+#index {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #ffffff;
+  margin-bottom: 60px;
+}
+
+.index-title {
+  padding: 0 0 0 200px;
+}
+
+.title {
+  padding: 30px;
+  display: table;
+  margin: 0 auto;
+}
+
+li {
+  line-height: 40px;
+  text-align: center;
+}
+
+
+#detail {
+  max-width: 600px;
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.detail-title {
+  margin-bottom: 10px;
+}
+
+.inner {
+
+  margin: 0 auto;
+}
+
+.content {
+  display: flex;
+
+}
+
+.content>img {
+  width: 270px;
+  margin-right: 40px;
+}
+
+.text-title {
+  margin-bottom: 20px;
+}
+
+.item {
+  border-top: solid 1px #dededede;
+  border-bottom: solid 1px #dededede;
+  padding: 10px 0;
+  line-height: 30px;
+}
+
+td {
+  padding: 0 20px;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.nav-menu {
+  margin-top: 20px;
+}
+
+.nav-menu>a {
+  color: #333333;
+}
+
+footer {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+@media screen and (max-width: 1024px) {
+
+  .item {
+    width: 100%;
+  }
+
+  td {
+    text-align: center;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  .content>img {
+    width: 100%;
+    margin: 0 0 20px 0;
+  }
+
+}
