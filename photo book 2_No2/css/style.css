@@ -1,0 +1,149 @@
+body {
+  max-width: 1000px;
+  margin: 0px auto;
+  background-color: #ffffff;
+  font-family: "Meiryo";
+}
+
+#logo>img {
+  width: 180px;
+  margin: 30px 0 10px 0;
+}
+
+#mainvisual {
+  max-width: 1000px;
+  margin-bottom: 60px;
+}
+
+#mainvisual>img {
+  width: 100%;
+}
+
+
+
+#index {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+  background-color: #f5f5f5;
+  margin-bottom: 60px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.index-inner {
+  padding: 30px;
+  display: table;
+  margin: 0 auto;
+  border: solid 1px #333333;
+
+}
+
+ol {
+  margin: 0 120px;
+}
+
+li {
+  font-size: 14px;
+  line-height: 40px;
+}
+
+.image-photo {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.image-photo>li {
+  width: 49%;
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+#detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 60px;
+  background-color: #f5f5f5;
+  margin-bottom: 60px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+}
+dd {
+  margin-bottom: 5px;
+}
+dl {
+  width: 35%;
+  border-right: solid 1px #333333;
+  padding-right: 40px;
+}
+
+dt {
+  font-weight: bold;
+}
+
+.text {
+  width: 65%;
+  padding-left: 40px;
+}
+
+p {
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+a {
+  color: #333333;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+
+  #index {
+    padding: 40px 20px;
+  }
+
+  ol {
+    margin: 0 20px;
+  }
+
+  .image-photo>li {
+    width: 100%;
+  }
+
+  .item {
+    flex-direction: column;
+  }
+
+  dl {
+    width: 100%;
+    border-right: none;
+    border-bottom: solid 1px #333333;
+    padding: 0 0 40px 0;
+  }
+
+  .text {
+    width: 100%;
+    padding: 40px 0 0 0;
+  }
+}
